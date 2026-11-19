@@ -1,0 +1,60 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 2359 >>
+stream
+BT /F2 20 Tf 50 790 Td (Sathya - Full-stack Web Developer) Tj ET
+BT /F1 11 Tf 50 761 Td (Bengaluru, India  |  hello@sathya.dev  |  +91 98401 27563  |  github.com/sathya-dev) Tj ET
+BT /F2 13 Tf 50 736 Td (Summary) Tj ET
+BT /F1 11 Tf 50 714 Td (Frontend-leaning full-stack developer with 4 years of experience shipping React, Next.js and) Tj ET
+BT /F1 11 Tf 50 697 Td (Node.js products. Focused on performance, accessibility and design systems.) Tj ET
+BT /F2 13 Tf 50 672 Td (Experience) Tj ET
+BT /F2 11 Tf 50 650 Td (Frontend Engineer II, Zentrix Commerce - Bengaluru \(Mar 2025 - Present\)) Tj ET
+BT /F1 10.5 Tf 50 633 Td (- Led checkout migration to Next.js App Router; LCP 3.8s -> 1.6s.) Tj ET
+BT /F1 10.5 Tf 50 616.5 Td (- Built a 40-component React + Storybook design system adopted by 5 squads.) Tj ET
+BT /F1 10.5 Tf 50 600 Td (- Raised checkout conversion 11% with A/B-tested address autofill.) Tj ET
+BT /F2 11 Tf 50 583.5 Td (Full-stack Developer, Kovai Labs - Coimbatore \(Jul 2023 - Feb 2025\)) Tj ET
+BT /F1 10.5 Tf 50 566.5 Td (- Shipped 9 client web apps end to end; Express APIs serving 2M requests/day.) Tj ET
+BT /F1 10.5 Tf 50 550 Td (- Introduced GitHub Actions CI with preview deploys; release time 2 days -> 3 hours.) Tj ET
+BT /F2 11 Tf 50 533.5 Td (Junior Web Developer, Brightloop Digital - Chennai \(Jul 2022 - Jun 2023\)) Tj ET
+BT /F1 10.5 Tf 50 516.5 Td (- Built 14 responsive marketing sites; raised Lighthouse accessibility 71 -> 96.) Tj ET
+BT /F2 13 Tf 50 492 Td (Internships) Tj ET
+BT /F1 10.5 Tf 50 470 Td (Web Development Intern, Nila Health \(Jan - Jun 2022\)  |  Frontend Intern, Tessel Software \(May - Jul 2021\)) Tj ET
+BT /F2 13 Tf 50 445.5 Td (Education) Tj ET
+BT /F1 10.5 Tf 50 423.5 Td (B.E. Computer Science & Engineering, Coimbatore Institute of Technology \(2018 - 2022\) - CGPA 8.62/10) Tj ET
+BT /F2 13 Tf 50 399 Td (Skills) Tj ET
+BT /F1 10.5 Tf 50 377 Td (HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, Express, MongoDB, PostgreSQL,) Tj ET
+BT /F1 10.5 Tf 50 360.5 Td (Git, Docker, CI/CD, Jest, Playwright, Figma, Accessibility \(WCAG 2.2\)) Tj ET
+BT /F2 13 Tf 50 336 Td (Certifications) Tj ET
+BT /F1 10.5 Tf 50 314 Td (Meta Front-End Developer, AWS Cloud Practitioner, MongoDB Associate Developer, GitHub Foundations,) Tj ET
+BT /F1 10.5 Tf 50 297.5 Td (Google UX Design, freeCodeCamp JS Algorithms) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2806
+%%EOF

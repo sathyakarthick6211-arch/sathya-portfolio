@@ -1,0 +1,73 @@
+.scene{position:relative;overflow:hidden;background:var(--stage);border-radius:8px;height:148px;color:#C9D6CE;font:500 11px/1.5 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;isolation:isolate;--cvbg:var(--stage)}
+.scene.thumb{height:200px}.scene.hob{height:132px}
+.scene.light{background:#FFFCF6;color:#33443B;--cvbg:#FFFCF6}
+.scene *{animation-play-state:paused!important}
+.scene.live *{animation-play-state:running!important}
+.scene .a{position:absolute;white-space:nowrap}
+.fx{position:absolute;left:50%;top:50%;width:240px;height:120px;margin:-60px 0 0 -120px}
+.ln{position:relative;display:block;width:max-content;white-space:pre}
+.cv{position:absolute;inset:0 -3px;background:var(--cvbg);transform-origin:right;transform:scaleX(0)}
+.st3{position:relative;display:block;height:16px}.st3>span{position:absolute;left:0;top:0;white-space:pre}
+.tm{color:#F4B323}.tc{color:#FBF3E4}.tg{color:#C9D6CE}.td{color:#7E998B}.tr{color:#F59A80}
+.k{animation-duration:var(--du,5s);animation-delay:var(--dl,0s);animation-iteration-count:infinite;animation-fill-mode:both;animation-timing-function:var(--ef,cubic-bezier(.22,1,.36,1))}
+svg .k{transform-box:fill-box;transform-origin:center}
+.k-pop{animation-name:kpop}.k-in{animation-name:kin}.k-wipe{animation-name:kwipe}.k-gx{animation-name:kgx;transform-origin:left}.k-gy{animation-name:kgy;transform-origin:bottom}.k-gyt{animation-name:kgy;transform-origin:top}
+.k-early{animation-name:kearly}.k-mid{animation-name:kmid}.k-late{animation-name:klate}.k-third{animation-name:kthird}
+.k-mx{animation-name:kmx}.k-mxr{animation-name:kmxr}.k-flash{animation-name:kflash}.k-blink{animation-name:kblink}.k-spin{animation-name:kspin}
+.k-scroll{animation-name:kscroll}.k-scrollr{animation-name:kscrollr}.k-bar{animation-name:kbar;transform-origin:bottom}.k-bob{animation-name:kbob}.k-pulse{animation-name:kpulse}
+.k-drop{animation-name:kdrop}.k-slide3{animation-name:kslide3}.k-focus3{animation-name:kfocus3}.k-col3{animation-name:kcol3}.k-csbox{animation-name:kcsbox}.k-re{animation-name:kre}
+.k-swing{animation-name:kswing;transform-origin:50% 100%}.k-ball{animation-name:kball}.k-shut{animation-name:kshut}.k-shot{animation-name:kshot}.k-press{animation-name:kpress}.k-popup{animation-name:kpopup}
+.k-plane{animation-name:kplane}.k-glow{animation-name:kglow}.k-cur{animation-name:kcur}.k-rect{animation-name:krect;transform-origin:0 0}.k-drift{animation-name:kdrift}
+.k-flyk{animation-name:kflyk}.k-bump{animation-name:kbump}.k-swa{animation-name:kswa}.k-swb{animation-name:kswb}.k-tap{animation-name:ktap}.k-prog{animation-name:kprog;transform-origin:left}
+@keyframes kpop{0%{opacity:0;transform:translateY(6px)}12%,84%{opacity:1;transform:none}94%,100%{opacity:0;transform:none}}
+@keyframes kin{0%{opacity:0;transform:scale(.3)}12%,84%{opacity:1;transform:scale(1)}94%,100%{opacity:0;transform:scale(1)}}
+@keyframes kwipe{0%{transform:scaleX(1)}14%,86%{transform:scaleX(0)}95%,100%{transform:scaleX(1)}}
+@keyframes kgx{0%{transform:scaleX(0);opacity:1}14%,86%{transform:scaleX(1);opacity:1}95%,100%{transform:scaleX(1);opacity:0}}
+@keyframes kgy{0%{transform:scaleY(0);opacity:1}14%,86%{transform:scaleY(1);opacity:1}95%,100%{transform:scaleY(1);opacity:0}}
+@keyframes kearly{0%,52%{opacity:1}57%,95%{opacity:0}100%{opacity:1}}
+@keyframes kmid{0%,22%{opacity:0;transform:translateY(4px)}28%,52%{opacity:1;transform:none}57%,100%{opacity:0;transform:none}}
+@keyframes klate{0%,56%{opacity:0;transform:translateY(5px)}62%,92%{opacity:1;transform:none}98%,100%{opacity:0;transform:none}}
+@keyframes kthird{0%,30%{opacity:1}34%,96%{opacity:0}100%{opacity:1}}
+@keyframes kmx{0%{transform:translateX(0);opacity:0}8%{opacity:1}80%{transform:translateX(100%);opacity:1}90%,100%{transform:translateX(100%);opacity:0}}
+@keyframes kmxr{0%{transform:translateX(100%);opacity:0}8%{opacity:1}80%{transform:translateX(0);opacity:1}90%,100%{transform:translateX(0);opacity:0}}
+@keyframes kflash{0%{opacity:0}5%{opacity:1}24%,100%{opacity:0}}
+@keyframes kblink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes kspin{to{transform:rotate(360deg)}}
+@keyframes kscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes kscrollr{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@keyframes kbar{0%,100%{transform:scaleY(.25)}50%{transform:scaleY(1)}}
+@keyframes kbob{0%,60%,100%{transform:translateY(0)}30%{transform:translateY(-4px)}}
+@keyframes kpulse{0%{transform:scale(.7);opacity:.9}70%,100%{transform:scale(1.9);opacity:0}}
+@keyframes kdrop{0%{transform:translateY(-80px);opacity:0}14%{transform:none;opacity:1}84%{transform:none;opacity:1}94%,100%{transform:none;opacity:0}}
+@keyframes kslide3{0%,28%{transform:translateX(0)}33%,61%{transform:translateX(-33.333%)}66%,94%{transform:translateX(-66.666%)}100%{transform:translateX(0)}}
+@keyframes kfocus3{0%,28%{transform:translateX(0)}33%,61%{transform:translateX(var(--st))}66%,94%{transform:translateX(calc(var(--st)*2))}100%{transform:translateX(0)}}
+@keyframes kcol3{0%{transform:translateX(0);opacity:0}6%,22%{transform:translateX(0);opacity:1}36%,54%{transform:translateX(33.333%);opacity:1}68%,88%{transform:translateX(66.666%);opacity:1}96%,100%{transform:translateX(66.666%);opacity:0}}
+@keyframes kcsbox{0%,28%{transform:none}33%,61%{transform:translateX(4px) scale(.8)}66%,94%{transform:translateY(4px) rotate(45deg) scale(.86)}100%{transform:none}}
+@keyframes kre{0%,48%{opacity:0;transform:scale(.8)}54%{opacity:1;transform:scale(1)}72%,100%{opacity:0;transform:scale(1.6)}}
+@keyframes kswing{0%,38%{transform:rotate(-38deg)}48%{transform:rotate(42deg)}62%,100%{transform:rotate(-38deg)}}
+@keyframes kball{0%{transform:translate(0,0);opacity:0}6%{opacity:1}44%{transform:translate(var(--bx),var(--by))}80%{transform:translate(var(--hx),var(--hy));opacity:1}88%,100%{transform:translate(var(--hx),var(--hy));opacity:0}}
+@keyframes kshut{0%,64%{transform:scale(1)}70%{transform:scale(.12)}78%,100%{transform:scale(1)}}
+@keyframes kshot{0%,68%{opacity:0}71%{opacity:.8}86%,100%{opacity:0}}
+@keyframes kpress{0%,100%{transform:scale(1)}8%{transform:scale(.68)}18%{transform:scale(1)}}
+@keyframes kpopup{0%{opacity:0;transform:translateY(0)}8%{opacity:1}36%{opacity:0;transform:translateY(-18px)}100%{opacity:0;transform:translateY(-18px)}}
+@keyframes kplane{0%{transform:rotate(-68deg);opacity:0}8%{opacity:1}80%{transform:rotate(68deg);opacity:1}90%,100%{transform:rotate(68deg);opacity:0}}
+@keyframes kglow{0%,100%{opacity:.16}50%{opacity:1}}
+@keyframes kcur{0%{transform:translate(0,0)}18%{transform:translate(36px,8px)}45%,58%{transform:translate(116px,62px)}80%{transform:translate(150px,6px)}100%{transform:translate(0,0)}}
+@keyframes krect{0%,18%{transform:scale(0);opacity:1}45%,88%{transform:scale(1);opacity:1}96%,100%{transform:scale(1);opacity:0}}
+@keyframes kdrift{0%,100%{transform:translateX(-14px)}50%{transform:translateX(18px)}}
+@keyframes kflyk{0%,16%{opacity:0;transform:translate(0,0) scale(1)}20%{opacity:1}50%{opacity:1;transform:translate(var(--tx),var(--ty)) scale(.5)}55%,100%{opacity:0;transform:translate(var(--tx),var(--ty)) scale(.5)}}
+@keyframes kbump{0%,50%{transform:scale(1)}56%{transform:scale(1.55)}66%,100%{transform:scale(1)}}
+@keyframes kswa{0%,52%{opacity:1}54%,97%{opacity:0}100%{opacity:1}}
+@keyframes kswb{0%,52%{opacity:0}54%,97%{opacity:1}100%{opacity:0}}
+@keyframes ktap{0%,10%{transform:scale(1)}14%{transform:scale(.84)}19%,100%{transform:scale(1)}}
+@keyframes kprog{from{transform:scaleX(.05)}to{transform:scaleX(1)}}
+.tb{position:absolute;left:0;right:0;top:0;height:20px;display:flex;align-items:center;gap:4px;padding:0 8px;background:rgba(255,255,255,.07);font-size:9px;z-index:2}
+.tb i{width:6px;height:6px;border-radius:50%;background:rgba(201,214,206,.35)}.tb i:first-child{background:#F4B323}
+.tb span{margin-left:8px;color:#7E998B}
+.light .tb{background:#F5E9D4}.light .tb i{background:#E8D7B8}.light .tb i:first-child{background:#F4B323}.light .tb span{color:#5E6B63}
+.nd{display:block;padding:3px 7px;border-radius:999px;background:#22553F;color:#FBF3E4;font-size:9.5px;white-space:nowrap;border:1px solid rgba(201,214,206,.25)}
+.nd.hl{background:#F4B323;color:#0F2E22;border-color:#F4B323}
+.bx{border:1.5px solid rgba(201,214,206,.35);border-radius:6px}
+.cd{width:10px;height:10px;border-radius:50%;background:#C9D6CE}
+.si{display:inline-block;width:12px;height:12px;background:currentColor;-webkit-mask:var(--i) center/contain no-repeat;mask:var(--i) center/contain no-repeat}
+@media (prefers-reduced-motion:reduce){.scene *{animation:none!important}}

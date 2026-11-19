@@ -1,0 +1,9 @@
+:root{
+--font-display:'Poppins',system-ui,sans-serif;
+--font-body:'DM Sans',system-ui,sans-serif;
+--font-script:'Caveat',cursive;
+--fw-regular:400;/* @kind font */--fw-medium:500;/* @kind font */--fw-semibold:600;/* @kind font */--fw-bold:700;/* @kind font */--fw-black:800;/* @kind font */
+--fs-display:96px;--fs-h1:56px;--fs-h2:32px;--fs-h3:20px;--fs-h4:17px;--fs-body-lg:19px;--fs-body:16px;--fs-small:14px;--fs-caption:12px;--fs-script:28px;
+--lh-display:.98;/* @kind other */--lh-heading:1.15;/* @kind other */--lh-body:1.55;/* @kind other */
+--ls-display:-.035em;--ls-heading:-.015em;--ls-caps:.08em;
+}

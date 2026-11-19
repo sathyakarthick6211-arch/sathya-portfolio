@@ -1,0 +1,8 @@
+:root{
+--shadow-tile:0 2px 6px rgba(15,46,34,.10);
+--shadow-card:0 8px 24px rgba(15,46,34,.08),0 1px 2px rgba(15,46,34,.06);
+--shadow-card-hover:0 16px 36px rgba(15,46,34,.14),0 2px 4px rgba(15,46,34,.06);
+--shadow-panel:0 18px 40px rgba(10,34,24,.22);
+--shadow-accent:0 6px 16px rgba(244,179,35,.35);
+--ease-out:cubic-bezier(.22,1,.36,1);/* @kind other */--dur-fast:140ms;/* @kind other */--dur-base:220ms;/* @kind other */
+}
